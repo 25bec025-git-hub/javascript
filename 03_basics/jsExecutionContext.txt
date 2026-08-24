@@ -1,0 +1,26 @@
+rule 1. use Inspect , console
+this => global object 
+js is single threaded 
+1. global execution context
+2. function execution context
+3. eval execution context
+{} => memory creation phase or creation phase where memory allocation hota hai
+
+execution phase 
+
+1. Global execution or Environment inside this
+
+{2. Memory phase 
+  variable = undefined 
+  function => definition
+
+3. Execution phase 
+    variables  get it's real values 
+    funcion call itself make a complete new execution context + execution thread  and after completion of function it return the value in global execution phase or the place from where function was called and delete completely newly created execution Environment 
+}
+
+callstack  follow lifo
+go to Inspect then open sources and then create a file in snippet then write code and then save and then run 
+
+
+scope of var is globle doesn't matter where it is written 
