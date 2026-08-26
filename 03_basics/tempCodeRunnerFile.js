@@ -1,2 +1,3 @@
-console.log(a); // not accessible out of scope 
-// console.log(b);// not accessible out of scope 
+(function chai (){ // named iife
+//     console.log(`DB connected`);
+// })();// semicolon ends the function

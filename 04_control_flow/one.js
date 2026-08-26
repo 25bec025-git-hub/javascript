@@ -54,8 +54,8 @@ switch (month) {
 
 // falsy value => false, 0, -0, 0n, "", null, undefined , NaN 
 // rest all values are true values 
-//  truthy valuwes 
-//  "0", " ", [], {}, funstion(){}
+//  truthy values 
+//  "0", " ", [], {}, function(){}
 
 // if (arrayName.length === 0){
 //  console.log ("array is empty");}
